@@ -9,6 +9,9 @@ import Home from './Home/Home'
 
 function App() {
 
+
+  // hello wold
+
   return (
 
     <Router>
@@ -16,11 +19,14 @@ function App() {
     <div className ='container'>
 
       <Menu/>
+
+    
       
       <Switch>
       <Route path='/' component={Home} exact />
       <Route path='/Movies' component={Movies}/>
       <Route path='/Contact' component={Contact}/>
+
 
       </Switch>
       
